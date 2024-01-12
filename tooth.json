@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+    "tooth": "github.com/GroupMountain/ThrowableFireball",
+    "version": "0.4.1",
+    "info": {
+        "name": "ThrowableFireball",
+        "description": "Super Fireworks made of TNT!",
+        "author": "Tsubasa6848",
+        "source": "github.com/GroupMountain/ThrowableFireball",
+        "tags": [
+            "LeveLamina",
+            "GMLIB",
+            "ThrowableFireball"
+        ]
+    },
+    "dependencies": {
+        "github.com/GroupMountain/GMLIB": ">=0.4.1"
+    },
+    "files": {
+        "place": [
+            {
+                "src": "ThrowableFireball/*",
+                "dest": "plugins/ThrowableFireball"
+            }
+        ]
+    }
+}

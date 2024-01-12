@@ -1,2 +1,2 @@
-# GMLIB-Plugin-Template
-Template for plugins using GMLIB
+# ThrowableFireball
+Make fire charge throwable!

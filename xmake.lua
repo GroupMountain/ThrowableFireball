@@ -40,7 +40,7 @@ add_requires("levilamina")
 --         import("package.tools.xmake").install(package)
 --     end)
 
-target("plugin") -- Change this to your plugin name.
+target("ThrowableFireball") -- Change this to your plugin name.
     add_cxflags(
         "/EHa",
         "/utf-8"

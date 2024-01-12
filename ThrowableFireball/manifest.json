@@ -1,0 +1,10 @@
+{
+    "name": "ThrowableFireball",
+    "entry": "ThrowableFireball.dll",
+    "type": "native",
+    "dependencies": [
+        {
+            "name": "GMLIB"
+        }
+    ]
+}
