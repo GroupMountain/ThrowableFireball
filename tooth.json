@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/GroupMountain/ThrowableFireball",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "info": {
         "name": "ThrowableFireball",
         "description": "Super Fireworks made of TNT!",
@@ -14,7 +14,7 @@
         ]
     },
     "dependencies": {
-        "github.com/GroupMountain/GMLIB": ">=0.4.1"
+        "github.com/GroupMountain/GMLIB": ">=0.4.2"
     },
     "files": {
         "place": [
