@@ -11,7 +11,8 @@ void ThrowableFireball() {
                 auto fireball = pl->shootProjectile("minecraft:small_fireball", 2, 3);
                 if (fireball) {
                     item->removeCount(1);
-                    event.cancel();
+             pl->refreshInventory（）
+                    event.cancel(); 
                 }
             }
         },
