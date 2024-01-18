@@ -2,6 +2,7 @@
 #include <GMLIB/Server/ItemStackAPI.h>
 #include <GMLIB/Server/PlayerAPI.h>
 
+
 void ThrowableFireball() {
     ll::event::EventBus::getInstance().emplaceListener<ll::event::player::PlayerUseItemEvent>(
         [](ll::event::player::PlayerUseItemEvent& event) {
