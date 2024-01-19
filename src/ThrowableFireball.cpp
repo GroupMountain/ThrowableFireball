@@ -11,8 +11,10 @@ void ThrowableFireball() {
             if (item->getTypeName() == "minecraft:fire_charge") {
                 auto fireball = pl->shootProjectile("minecraft:small_fireball", 2, 3);
                 if (fireball) {
-                    item->removeCount(1);
-                    pl->refreshInventory();
+                    if (!pl->isCreative()) {
+                        item->removeCount(1);
+                        pl->refreshInventory();
+                    }
                     event.cancel();
                 }
             }
