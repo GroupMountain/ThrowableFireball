@@ -1,18 +1,18 @@
 {
     "format_version": 2,
     "tooth": "github.com/GroupMountain/ThrowableFireball",
-    "version": "0.5.1",
+    "version": "0.8.0",
     "info": {
         "name": "ThrowableFireball",
         "description": "Make Fire Charge Throwable!",
-        "author": "Tsubasa6848",
-        "source": "github.com/GroupMountain/ThrowableFireball",
+        "author": "GroupMountain",
         "tags": [
             "LeveLamina",
             "GMLIB",
             "ThrowableFireball"
         ]
     },
+    "asset_url": "https://github.com/GroupMountain/ThrowableFireball/releases/download/v0.8.0/ThrowableFireball-windows-x64.zip",
     "dependencies": {
         "github.com/GroupMountain/GMLIB": ">=0.4.2"
     },

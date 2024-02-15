@@ -1,6 +1,5 @@
 #pragma once
-#include "include_all.h"
-#include <GMLIB/GMLIB.h>
+#include <include_all.h>
 
 #define PLUGIN_NAME "ThrowableFireball"
 
